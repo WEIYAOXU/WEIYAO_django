@@ -1,3 +1,5 @@
+# Import the Category model
+from rango.models import Category
 from django.shortcuts import render
 from django.http import HttpResponse
 def index(request):
